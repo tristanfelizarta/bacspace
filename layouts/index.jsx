@@ -47,7 +47,13 @@ const AppLayout = (props) => {
 
     if (!mounted || status === 'loading') {
         return (
-            <Flex justify="center" align="center" h="100vh" w="full">
+            <Flex
+                position="relative"
+                justify="center"
+                align="center"
+                h="100vh"
+                w="full"
+            >
                 <Image alt="logo" src="/favicon.ico" h="8" w="8" />
 
                 <Spinner
