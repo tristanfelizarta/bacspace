@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const SoaSchema = Schema(
+const SoaSchema = new Schema(
     {
         user: {
             type: String,

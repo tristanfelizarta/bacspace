@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const UnitSchema = Schema(
+const UnitSchema = new Schema(
     {
         tenant: {
             user: {

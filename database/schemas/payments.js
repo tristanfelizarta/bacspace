@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const PaymentSchema = Schema(
+const PaymentSchema = new Schema(
     {
         user: {
             type: String,
